@@ -61,7 +61,7 @@ nbr_CE multiplication(nbr_CE  _x, nbr_CE _y)
 
 {	
 	nbr_CE z ;
-	z.mod = _x.mod*_y.mod ;
+	z.mod = _x.mod*_y.mod ; 
 	z.phase = _x.phase + _y.phase ;
 	return z ;
 
