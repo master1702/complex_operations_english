@@ -11,7 +11,7 @@ nbr_C input(float _Re,float _Im,char _c[3])
 	printf("give the Imaginary part of %s  : ",_c);
 	scanf("%f",&_Im);
 	nbr_C z = {_Re,_Im} ;
-	return z ;
+	return z ; 
 }
 /*-----------------------------------------------------------------------*/
 // la fonction qui permet l'affichage d'un nombre complexe  (a+bi) :
